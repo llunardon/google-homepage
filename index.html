@@ -1,0 +1,277 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Google</title>
+    
+    <style>
+        .logo_container {
+            display: block;
+            margin-top: 24px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 25px;
+            width: 270px;
+        }
+
+        .top_bar_container {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: transparent;
+        }
+
+        .top_bar_left {
+            display: flex;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        .top_bar_right {
+            display: flex;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        .about {
+            padding: 5px;
+            margin-right: 7px;
+            text-decoration: none;
+            color: #5f6368;
+        }
+
+        .about:hover {
+            text-decoration: underline;
+        }
+
+        .store {
+            padding: 5px;
+            margin-right: 7px;
+            text-decoration: none;
+            color: #5f6368;
+        }
+
+        .store:hover {
+            text-decoration: underline;
+        }
+
+        .gmail {
+            padding: 5px;
+            margin-right: 7px;
+            text-decoration: none;
+            color: #5f6368;
+        } 
+
+        .gmail:hover {
+            text-decoration: underline;
+        }
+
+        .images {
+            padding: 5px;
+            margin-right: 20px;
+            text-decoration: none;
+            color: #5f6368;
+        } 
+
+        .images:hover {
+            text-decoration: underline;
+        }
+
+        .nine-dots {
+            vertical-align: middle;
+            width: 15px;
+            height: 15px;
+            margin-right: 20px;
+        }
+
+       .profile-pic {
+            border: 2px solid transparent;
+            vertical-align: middle;
+            width: 30px;
+            height: 30px;
+        }
+
+       .profile-pic:hover {
+            border: 2px solid #DFE1E5;
+            border-radius: 15px;
+       }
+
+        .search-bar {
+            display: flex;
+            max-width: 584px;
+            width: auto;
+            height: 44px;
+            margin: 0 auto;
+            background-color: white;
+            border: 1px solid #DFE1E5;
+            border-radius: 24px;
+        }
+
+        .input-search {
+            width: 85%;
+            height: 36px;
+            margin: 0 auto;
+            border: none;
+            outline: none;
+            background-color: transparent;
+        }
+
+        .magnifying-glass {
+            width: 18px;
+            height: 18px;
+            margin-left: 15px;
+            align-self: center;
+            background-color: transparent;
+        }
+
+        .microphone {
+            width: 15px;
+            height: 20px;
+            margin-left: 5px;
+            margin-right: 15px;
+            align-self: center;
+            background-color: transparent;
+        }
+
+        .button-container {
+            display: flex;
+            height: 40px;
+            width: 300px;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: space-between;
+        }
+
+        .search-button {
+            height: 36px;
+            width: 144px;
+            align-self: center;     
+            color: 090909;
+            background-color: #F9F9F9;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+
+        .search-button:hover {
+            border: 1px solid #DFE1E5;
+        }
+
+        .search-button:active {
+            border: 1px solid #45C1CC;
+            outline: none;
+        }
+
+        .search-button:focus {
+            border: 1px solid #45C1CC;
+            outline: none;
+        }
+
+        .footer-container {
+            height: 50px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            background-color: #F0F0F0;
+            border: 1px solid #D0D0D0;
+        }
+
+        .footer-left {
+            display: flex;
+            align-self: center;
+            margin-left: 15px;
+            background-color: transparent;
+            color: #5f6368;
+        }
+
+        .footer-right {
+            align-self: center;
+            display: flex;
+            margin-right: 15px;
+            background-color: transparent;
+            color: #5f6368; 
+        }
+
+        .footer-element {
+            margin-left: 18px;
+            margin-right: 18px;
+            font-family: 'Arial', sans-serif;
+            font-size: 14px;
+        }
+
+        .footer-element:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<!-- Body -->
+<body>
+    <!-- Header container --> 
+    <header class="top_bar_container">
+        <!-- Top bar's left section-->
+        <nav class="top_bar_left"> 
+            <a class="about" href="https://about.google/?fg=1&utm_source=google-IT&utm_medium=referral&utm_campaign=hp-header">
+                About
+            </a> 
+            <a class="store" href="https://store.google.com/IT/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=it-IT">
+                Store
+            </a> 
+        </nav>
+        <!-- Top bar's right section-->
+        <nav class="top_bar_right">
+            <a class="gmail" href="">
+                Gmail
+            </a>
+            <a class="images" href="">
+                Images
+            </a>
+            <a href="">
+                <img class="nine-dots" src="dots1.png" alt="nine dots">
+            </a>
+            <a href="">
+                <img class="profile-pic" src="profile_pic.png" alt="Your profile picture">
+            </a>
+        </nav>
+    </header>
+    <!-- Google logo -->
+	<img class="logo_container" src="logo_odin.png" alt="google's logo">
+
+    <!-- Search bar -->
+    <div class="search-bar">
+        <img class="magnifying-glass" src="magnify.png" alt="Magnifying glass">
+        <input class="input-search" type="text" maxlength="2048">
+        <img class="microphone" src="mic1.png" alt="Microphone">
+    </div> 
+    <div class="button-container">
+        <button class="button search-button">Google Search</button>
+        <button class="button search-button">I'm feeling lucky</button>
+    </div>
+    <footer class="footer-container">
+        <div class="footer-left">
+            <div class="footer-element">About</div>
+            <div class="footer-element">Avertising </div>
+            <div class="footer-element">Business</div>
+            <div class="footer-element">How search works</div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-element">Privacy</div>
+            <div class="footer-element">Terms</div>
+            <div class="footer-element">Settings</div>
+        </div>
+    </footer>
+</body>
+</html>
